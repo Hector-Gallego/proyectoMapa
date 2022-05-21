@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <script src='https://unpkg.com/maplibre-gl@2.1.7/dist/maplibre-gl.js'></script>
+    <script src="js/index.js"></script>
+
+    <link href='https://unpkg.com/maplibre-gl@2.1.7/dist/maplibre-gl.css' rel='stylesheet'/>
+    <link href='css/index.css' rel='stylesheet'/>
+
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <script crossorigin="anonymous"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+</head>
+<body>
+
+<nav class="position-absolute w-100 navbar navbar-expand-lg navbar-dark bg-dark " >
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <h1 class="text-light me-auto mb-2 mb-lg-0 display-3" >Hidden brand</h1>
+
+            <form class="d-flex" action="">
+                <input class="form-control me-2" type="text" placeholder="usuario" aria-label="Search">
+                <input class="form-control me-2" type="password" placeholder="contraseña" aria-label="Search">
+                <a class="btn btn-outline-light me-3" type="submit" href="#footer">ir abajo</a>
+
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid" id='map'></div>
+
+<footer id="footer" style="margin-top: 100vh"  class="w-100 position-absolute  bg-dark text-center text-white bg-gradient">
+
+    <!-- iconos -->
+    <div class="container">
+
+        <section>
+            <!-- Facebook -->
+            <a class=" mt-5 btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+            <!-- Twitter -->
+            <a class="mt-5 btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="bi bi-twitter"></i>
+            </a>
+
+            <!-- Google -->
+            <a class="mt-5 btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="bi bi-github"></i>
+            </a>
+
+
+        </section>
+
+    </div>
+
+    <!-- texto -->
+    <div class="container mt-5">
+        <section>
+
+
+            <!-- Section: Text -->
+            <section>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+                    repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+                    eum harum corrupti dicta, aliquam sequi voluptate quas.
+                </p>
+            </section>
+
+
+        </section>
+    </div>
+
+    <!-- enlaces -->
+    <div class="container mt-5">
+        <section>
+            <h5>Links</h5>
+
+            <ul class="list-unstyled ">
+                <li>
+                    <a class="text-white" href="#!">Link 1</a>
+                </li>
+                <li>
+                    <a class="text-white" href="#!">Link 2</a>
+                </li>
+                <li>
+                    <a class="text-white" href="#!">Link 3</a>
+                </li>
+                <li>
+                    <a class="text-white" href="#!">Link 4</a>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+    <!-- copyright -->
+    <div class=" mt-5 p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <section>
+            © 2022 Copyright:
+        </section>
+
+
+    </div>
+
+
+</footer>
+
+</body>
+</html>
